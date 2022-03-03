@@ -4,7 +4,7 @@ inhibit_all_warnings!
 
 target 'GetStreamActivityFeed' do
   use_frameworks!
-  pod 'GetStream'
+  pod 'GetStream', :git=> 'git@github.com:claps-ai/stream-swift.git', :branch => 'master'
   pod 'Nuke', '~> 10.3'
   pod 'Reusable', '~> 4.1'
   pod 'SnapKit', '~> 5.0'
