@@ -13,7 +13,7 @@ DESC
   spec.social_media_url = "https://getstream.io"
   spec.swift_version = "5.0"
   spec.platform = :ios, "11.0"
-  spec.source = { :git => "https://github.com/GetStream/swift-activity-feed.git", :tag => "#{spec.version}" }
+  spec.source = { :git => "https://github.com/claps-ai/swift-activity-feed.git", :tag => "#{spec.version}" }
   spec.source_files  = "Sources/**/*.swift"
   spec.resources = ["Sources/**/*.xib", "Sources/Icons.xcassets"]
   spec.framework = "Foundation", "UIKit"
